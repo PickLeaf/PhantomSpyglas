@@ -1,13 +1,11 @@
-data modify entity @s ArmorItems[3] set value \
-    {id:"minecraft:purple_concrete",\
-    components:{"minecraft:enchantments":{"phtsg:phantom":1},\
-    "minecraft:max_damage":1}}
+item replace entity @s armor.head with \
+    minecraft:purple_concrete[minecraft:enchantments={"phtsg:phantom":1}] 1 
 
-execute store success entity @s ArmorItems[3].components."minecraft:damage" byte 1 \
-    run forceload query ~ ~
+execute if function phtsg:summon/query_load run \
+    tag @s add phtsg.mark_loaded
 
-execute if data entity @s ArmorItems[3].components{"minecraft:damage":0} \
-    run forceload add ~ ~
+execute unless entity @s[tag=phtsg.mark_loaded] run \
+    forceload add ~ ~
 
 execute rotated as @p positioned ^ ^ ^ run teleport @s ~ ~ ~ ~ ~
 data modify entity @s Marker set value 1b

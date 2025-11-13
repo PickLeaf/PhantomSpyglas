@@ -1,11 +1,29 @@
 {
-  "parent": "minecraft:recipes/root",
+  "parent": "minecraft:adventure/kill_a_mob",
+  "display": {
+    "title": {
+      "translate": "phtsg.advancement.phantom.title",
+      "fallback": "Phantom Enchantment"
+    },
+    "description": {
+      "translate": "phtsg.advancement.phantom.description",
+      "fallback": "Use Book, Phantom Membrane, Ender Pearl to craft Phantom Enchantment Book at the Crafting Table, then add the Phantom Enchantment to your Spyglass."
+    },
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    }
+  },
   "criteria": {
-    "has_phantom_membrane": {
+    "has_phantom_book": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:phantom_membrane"
+            "items": "minecraft:spyglass",
+            "components": {
+              "minecraft:enchantments": {
+                "phtsg:phantom": 1
+              }
+            }
           }
         ]
       },
@@ -14,7 +32,7 @@
   },
   "requirements": [
     [
-      "has_phantom_membrane"
+      "has_phantom_book"
     ]
   ],
   "rewards": {

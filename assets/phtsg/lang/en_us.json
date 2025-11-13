@@ -1,3 +1,9 @@
 {
-	"phtsg.enchantment.phantom": "Phantom"
+	"phtsg.mod_name": "Phantom Spyglass",
+    "phtsg.link": "[Link]",
+    "phtsg.load_wrong_version": "(Be loaded to WRONG version!)",
+    "phtsg.load_resourcepack": "",
+	"phtsg.enchantment.phantom": "Phantom",
+    "phtsg.advancement.phantom.title": "Phantom Enchantment",
+    "phtsg.advancement.phantom.description": "Use Book, Phantom Membrane, Ender Pearl to Phantom Enchantment Book at the Crafting Table, then add the Phantom Enchantment to your Spyglass."
 }

@@ -1,2 +1,3 @@
 execute if score @s recover_phtsg_trigger matches 0.. \
-run return run function phtsg:recover/1
+    run function phtsg:recover/by_trigger with entity @s \
+        SelectedItem.components."minecraft:custom_data".phtsg_storage

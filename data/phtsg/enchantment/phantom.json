@@ -2,7 +2,7 @@
   "anvil_cost": 4,
   "description": {
     "translate": "phtsg.enchantment.phantom",
-    "fallback": "虚化"
+    "fallback": "Phantom"
   },
   "effects": {
     "minecraft:hit_block": [

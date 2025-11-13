@@ -1,6 +1,39 @@
 {
 	"pack": {
 		"pack_format": 48,
-		"description": "mc1.21-v1.3\nBy 刘拾叶PickLeaf"
+		"min_format": 34,
+		"max_format": 88,
+		"supported_formats": [34, 88],
+		"description": [
+			{
+				"text": "Phantom Spyglass V1.4[MC1.21.x]\n"
+			},
+			{
+				"text": "By 刘拾叶 | PickLeaf",
+				"color": "gold"
+			}
+		]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": [62, 9999],
+				"min_format": 62,
+				"max_format": 9999,
+				"directory": "25w02a_p"
+			},
+			{
+				"formats": [49, 9999],
+				"min_format": 49,
+				"max_format": 9999,
+				"directory": "24w33a_p"
+			},
+			{
+				"formats": [48, 88],
+				"min_format": 48,
+				"max_format": 88,
+				"directory": "print_info"
+			}
+		]
 	}
 }

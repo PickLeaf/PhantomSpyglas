@@ -1,0 +1,28 @@
+{
+    "function": "minecraft:copy_custom_data",
+    "ops": [
+        {
+            "op": "replace",
+            "source": "Dimension",
+            "target": "phtsg_storage.dim"
+        },
+        {
+            "op": "replace",
+            "source": "Pos[0]",
+            "target": "phtsg_storage.x"
+        },
+        {
+            "op": "replace",
+            "source": "Pos[1]",
+            "target": "phtsg_storage.y"
+        },{
+            "op": "replace",
+            "source": "Pos[2]",
+            "target": "phtsg_storage.z"
+        }
+    ],
+    "source": {
+        "type": "minecraft:context",
+        "target": "this"
+    }
+}

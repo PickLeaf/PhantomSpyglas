@@ -1,3 +1,9 @@
 {
-	"phtsg.enchantment.phantom": "虚化"
+	"phtsg.mod_name": "虚化望远镜",
+    "phtsg.link": "[链接]",
+    "phtsg.load_wrong_version": "(被加载到了错误的版本！)",
+    "phtsg.load_resourcepack": "",
+	"phtsg.enchantment.phantom": "虚化",
+    "phtsg.advancement.phantom.title": "虚化魔咒",
+    "phtsg.advancement.phantom.description": "使用书、幻翼膜、末影珍珠在工作台合成虚化附魔书，然后添加虚化魔咒到你的望远镜上。"
 }
